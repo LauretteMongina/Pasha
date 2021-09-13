@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+
+{% block content%}
+
+
+<div class="row">
+    <h1 style="text-align:center;">Entertainment News</h1>
+       {{macro.displayArticles(entertainment)}}
+    </div>
+  
+
+
+{% endblock %}
