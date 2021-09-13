@@ -41,11 +41,13 @@ These are the behaviours/features that the application implements for use by a u
 ### Running Application
 Open cloned folder in terminal
   Run these commands:
-   python3.8 -m venv --without-pip virtual
-   $ source virtual/bin/activate
-   chmod a+x start.sh
-   $ ./start.sh
-   Open browser and navigate to http://127.0.0.1:5000/ to view application
+  <ul>
+   <li>$ python3.8 -m venv --without-pip virtual</li>
+   <li>$ source virtual/bin/activate</li>
+   <li>chmod a+x start.sh</li>
+   <li>$ ./start.sh</li>
+   <li>Open browser and navigate to http://127.0.0.1:5000/ to view application</li>
+   </ul>
 
 ### Testing 
   Run $python3.8 manage.py test
