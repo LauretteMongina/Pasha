@@ -15,3 +15,12 @@ def index():
     technology=get_articles_depending_on_category('technology')
     return render_template('index.html',my_sources=my_sources,technology=technology)
 
+@main.route('/news/<id>')
+def news_articles(id):
+
+    """
+    View articles function
+    """
+    articles=get_articles(id)
+    
+    return render_template('articles.html',articles=articles)
